@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A94C6B203FB65200259D5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C6A203FB65200259D5A /* AppDelegate.m */; };
+		63A94C6E203FB65200259D5A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C6D203FB65200259D5A /* FirstViewController.m */; };
+		63A94C71203FB65200259D5A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C70203FB65200259D5A /* SecondViewController.m */; };
+		63A94C74203FB65200259D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A94C72203FB65200259D5A /* Main.storyboard */; };
+		63A94C76203FB65300259D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A94C75203FB65300259D5A /* Assets.xcassets */; };
+		63A94C79203FB65300259D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A94C77203FB65300259D5A /* LaunchScreen.storyboard */; };
+		63A94C7C203FB65300259D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C7B203FB65300259D5A /* main.m */; };
+		63A94C86203FB65300259D5A /* CandyGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C85203FB65300259D5A /* CandyGoTests.m */; };
+		63A94C91203FB65300259D5A /* CandyGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C90203FB65300259D5A /* CandyGoUITests.m */; };
+		DF56E8094F5F253FE9DEFAD3 /* libPods-CandyGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A94C82203FB65300259D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A94C5E203FB65200259D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A94C65203FB65200259D5A;
+			remoteInfo = CandyGo;
+		};
+		63A94C8D203FB65300259D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A94C5E203FB65200259D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A94C65203FB65200259D5A;
+			remoteInfo = CandyGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63A94C66203FB65200259D5A /* CandyGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A94C69203FB65200259D5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63A94C6A203FB65200259D5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63A94C6C203FB65200259D5A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		63A94C6D203FB65200259D5A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		63A94C6F203FB65200259D5A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		63A94C70203FB65200259D5A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		63A94C73203FB65200259D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A94C75203FB65300259D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A94C78203FB65300259D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63A94C7A203FB65300259D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A94C7B203FB65300259D5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63A94C81203FB65300259D5A /* CandyGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A94C85203FB65300259D5A /* CandyGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyGoTests.m; sourceTree = "<group>"; };
+		63A94C87203FB65300259D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A94C8C203FB65300259D5A /* CandyGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A94C90203FB65300259D5A /* CandyGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyGoUITests.m; sourceTree = "<group>"; };
+		63A94C92203FB65300259D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B39CF2FF91924769136C09 /* Pods-CandyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyGo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF184E590C6C4078CD31E904 /* Pods-CandyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyGo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo.release.xcconfig"; sourceTree = "<group>"; };
+		FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A94C63203FB65200259D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF56E8094F5F253FE9DEFAD3 /* libPods-CandyGo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C7E203FB65300259D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C89203FB65300259D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160FF7443574CEF0818CABC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63A94C5D203FB65200259D5A = {
+			isa = PBXGroup;
+			children = (
+				63A94C68203FB65200259D5A /* CandyGo */,
+				63A94C84203FB65300259D5A /* CandyGoTests */,
+				63A94C8F203FB65300259D5A /* CandyGoUITests */,
+				63A94C67203FB65200259D5A /* Products */,
+				BD5FC7EAE6DDEFA069DAA665 /* Pods */,
+				160FF7443574CEF0818CABC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63A94C67203FB65200259D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A94C66203FB65200259D5A /* CandyGo.app */,
+				63A94C81203FB65300259D5A /* CandyGoTests.xctest */,
+				63A94C8C203FB65300259D5A /* CandyGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A94C68203FB65200259D5A /* CandyGo */ = {
+			isa = PBXGroup;
+			children = (
+				63A94C69203FB65200259D5A /* AppDelegate.h */,
+				63A94C6A203FB65200259D5A /* AppDelegate.m */,
+				63A94C6C203FB65200259D5A /* FirstViewController.h */,
+				63A94C6D203FB65200259D5A /* FirstViewController.m */,
+				63A94C6F203FB65200259D5A /* SecondViewController.h */,
+				63A94C70203FB65200259D5A /* SecondViewController.m */,
+				63A94C72203FB65200259D5A /* Main.storyboard */,
+				63A94C75203FB65300259D5A /* Assets.xcassets */,
+				63A94C77203FB65300259D5A /* LaunchScreen.storyboard */,
+				63A94C7A203FB65300259D5A /* Info.plist */,
+				63A94C7B203FB65300259D5A /* main.m */,
+			);
+			path = CandyGo;
+			sourceTree = "<group>";
+		};
+		63A94C84203FB65300259D5A /* CandyGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63A94C85203FB65300259D5A /* CandyGoTests.m */,
+				63A94C87203FB65300259D5A /* Info.plist */,
+			);
+			path = CandyGoTests;
+			sourceTree = "<group>";
+		};
+		63A94C8F203FB65300259D5A /* CandyGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63A94C90203FB65300259D5A /* CandyGoUITests.m */,
+				63A94C92203FB65300259D5A /* Info.plist */,
+			);
+			path = CandyGoUITests;
+			sourceTree = "<group>";
+		};
+		BD5FC7EAE6DDEFA069DAA665 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B39CF2FF91924769136C09 /* Pods-CandyGo.debug.xcconfig */,
+				AF184E590C6C4078CD31E904 /* Pods-CandyGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A94C65203FB65200259D5A /* CandyGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A94C95203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGo" */;
+			buildPhases = (
+				E36009438C275B502C3D4443 /* [CP] Check Pods Manifest.lock */,
+				63A94C62203FB65200259D5A /* Sources */,
+				63A94C63203FB65200259D5A /* Frameworks */,
+				63A94C64203FB65200259D5A /* Resources */,
+				8A3882D3FD1EBB55CB4D4898 /* [CP] Embed Pods Frameworks */,
+				35429895FF790BBE0F3643C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandyGo;
+			productName = CandyGo;
+			productReference = 63A94C66203FB65200259D5A /* CandyGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A94C80203FB65300259D5A /* CandyGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A94C98203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGoTests" */;
+			buildPhases = (
+				63A94C7D203FB65300259D5A /* Sources */,
+				63A94C7E203FB65300259D5A /* Frameworks */,
+				63A94C7F203FB65300259D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A94C83203FB65300259D5A /* PBXTargetDependency */,
+			);
+			name = CandyGoTests;
+			productName = CandyGoTests;
+			productReference = 63A94C81203FB65300259D5A /* CandyGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63A94C8B203FB65300259D5A /* CandyGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A94C9B203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGoUITests" */;
+			buildPhases = (
+				63A94C88203FB65300259D5A /* Sources */,
+				63A94C89203FB65300259D5A /* Frameworks */,
+				63A94C8A203FB65300259D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A94C8E203FB65300259D5A /* PBXTargetDependency */,
+			);
+			name = CandyGoUITests;
+			productName = CandyGoUITests;
+			productReference = 63A94C8C203FB65300259D5A /* CandyGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A94C5E203FB65200259D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "芬 费";
+				TargetAttributes = {
+					63A94C65203FB65200259D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					63A94C80203FB65300259D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63A94C65203FB65200259D5A;
+					};
+					63A94C8B203FB65300259D5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63A94C65203FB65200259D5A;
+					};
+				};
+			};
+			buildConfigurationList = 63A94C61203FB65200259D5A /* Build configuration list for PBXProject "CandyGo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A94C5D203FB65200259D5A;
+			productRefGroup = 63A94C67203FB65200259D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A94C65203FB65200259D5A /* CandyGo */,
+				63A94C80203FB65300259D5A /* CandyGoTests */,
+				63A94C8B203FB65300259D5A /* CandyGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A94C64203FB65200259D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A94C79203FB65300259D5A /* LaunchScreen.storyboard in Resources */,
+				63A94C76203FB65300259D5A /* Assets.xcassets in Resources */,
+				63A94C74203FB65200259D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C7F203FB65300259D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C8A203FB65300259D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35429895FF790BBE0F3643C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3882D3FD1EBB55CB4D4898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36009438C275B502C3D4443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CandyGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A94C62203FB65200259D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A94C71203FB65200259D5A /* SecondViewController.m in Sources */,
+				63A94C6B203FB65200259D5A /* AppDelegate.m in Sources */,
+				63A94C7C203FB65300259D5A /* main.m in Sources */,
+				63A94C6E203FB65200259D5A /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C7D203FB65300259D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A94C86203FB65300259D5A /* CandyGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A94C88203FB65300259D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A94C91203FB65300259D5A /* CandyGoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A94C83203FB65300259D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A94C65203FB65200259D5A /* CandyGo */;
+			targetProxy = 63A94C82203FB65300259D5A /* PBXContainerItemProxy */;
+		};
+		63A94C8E203FB65300259D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A94C65203FB65200259D5A /* CandyGo */;
+			targetProxy = 63A94C8D203FB65300259D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63A94C72203FB65200259D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A94C73203FB65200259D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A94C77203FB65300259D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A94C78203FB65300259D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A94C93203FB65300259D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63A94C94203FB65300259D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A94C96203FB65300259D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B39CF2FF91924769136C09 /* Pods-CandyGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63A94C97203FB65300259D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF184E590C6C4078CD31E904 /* Pods-CandyGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		63A94C99203FB65300259D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyGo.app/CandyGo";
+			};
+			name = Debug;
+		};
+		63A94C9A203FB65300259D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyGo.app/CandyGo";
+			};
+			name = Release;
+		};
+		63A94C9C203FB65300259D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandyGo;
+			};
+			name = Debug;
+		};
+		63A94C9D203FB65300259D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJVL2CHGNT;
+				INFOPLIST_FILE = CandyGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = candy.CandyGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandyGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A94C61203FB65200259D5A /* Build configuration list for PBXProject "CandyGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A94C93203FB65300259D5A /* Debug */,
+				63A94C94203FB65300259D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A94C95203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A94C96203FB65300259D5A /* Debug */,
+				63A94C97203FB65300259D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A94C98203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A94C99203FB65300259D5A /* Debug */,
+				63A94C9A203FB65300259D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A94C9B203FB65300259D5A /* Build configuration list for PBXNativeTarget "CandyGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A94C9C203FB65300259D5A /* Debug */,
+				63A94C9D203FB65300259D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A94C5E203FB65200259D5A /* Project object */;
+}
