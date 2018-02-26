@@ -16,7 +16,7 @@
 		63A94C7C203FB65300259D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C7B203FB65300259D5A /* main.m */; };
 		63A94C86203FB65300259D5A /* CandyGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C85203FB65300259D5A /* CandyGoTests.m */; };
 		63A94C91203FB65300259D5A /* CandyGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A94C90203FB65300259D5A /* CandyGoUITests.m */; };
-		DF56E8094F5F253FE9DEFAD3 /* libPods-CandyGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */; };
+		87D0812A660F35E25E604D4A /* Pods_CandyGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908FA96CF6181AE254C365C5 /* Pods_CandyGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,9 @@
 		63A94C8C203FB65300259D5A /* CandyGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A94C90203FB65300259D5A /* CandyGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyGoUITests.m; sourceTree = "<group>"; };
 		63A94C92203FB65300259D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908FA96CF6181AE254C365C5 /* Pods_CandyGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B39CF2FF91924769136C09 /* Pods-CandyGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyGo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo.debug.xcconfig"; sourceTree = "<group>"; };
 		AF184E590C6C4078CD31E904 /* Pods-CandyGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyGo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo.release.xcconfig"; sourceTree = "<group>"; };
-		FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF56E8094F5F253FE9DEFAD3 /* libPods-CandyGo.a in Frameworks */,
+				87D0812A660F35E25E604D4A /* Pods_CandyGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		160FF7443574CEF0818CABC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA55B9CE4F59001C68E7BFB8 /* libPods-CandyGo.a */,
+				908FA96CF6181AE254C365C5 /* Pods_CandyGo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,9 +314,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-CandyGo/Pods-CandyGo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
